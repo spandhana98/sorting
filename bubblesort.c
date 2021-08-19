@@ -21,6 +21,10 @@ int main()
 void bubblesort(int arr[100])
 {
 	int temp,i,j;
+
+       printf("before sorting\n");
+   for(i=0;i<n;i++)
+        printf("%d\n",arr[i]);
   for(i=0;i<n-1;i++)
   {
      for(j=0;j<n-i-1;j++)
